@@ -1,0 +1,94 @@
+{
+  "machine": [
+    {
+    "id": "M001",
+    "name": "CNC Machine A",
+    "temperature": 67.5,
+    "vibration": 2.1,
+    "health": 90,
+    "powerUsage": 12.5,
+    "lastUpdate": "2025-05-27T12:00:00Z"
+  },
+  {
+    "id": "M002",
+    "name": "Lathe Machine B",
+    "temperature": 72.2,
+    "vibration": 3.4,
+    "health": 75,
+    "powerUsage": 15.2,
+    "lastUpdate": "2025-05-27T12:00:00Z"
+  },
+  {
+    "id": "M003",
+    "name": "Milling Machine C",
+    "temperature": 65.1,
+    "vibration": 1.9,
+    "health": 85,
+    "powerUsage": 11.8,
+    "lastUpdate": "2025-05-27T12:00:00Z"
+  },
+  {
+    "id": "M004",
+    "name": "Drilling Machine D",
+    "temperature": 80.4,
+    "vibration": 4.3,
+    "health": 60,
+    "powerUsage": 18.7,
+    "lastUpdate": "2025-05-27T12:00:00Z"
+  },
+  {
+    "id": "M005",
+    "name": "Press Machine E",
+    "temperature": 75.0,
+    "vibration": 3.2,
+    "health": 70,
+    "powerUsage": 14.3,
+    "lastUpdate": "2025-05-27T12:00:00Z"
+  },
+  {
+    "id": "M006",
+    "name": "CNC Machine F",
+    "temperature": 60.5,
+    "vibration": 2.0,
+    "health": 95,
+    "powerUsage": 10.9,
+    "lastUpdate": "2025-05-27T12:00:00Z"
+  },
+  {
+    "id": "M007",
+    "name": "Welding Machine G",
+    "temperature": 85.2,
+    "vibration": 4.8,
+    "health": 55,
+    "powerUsage": 20.1,
+    "lastUpdate": "2025-05-27T12:00:00Z"
+  },
+  {
+    "id": "M008",
+    "name": "Laser Cutter H",
+    "temperature": 68.8,
+    "vibration": 2.5,
+    "health": 88,
+    "powerUsage": 13.6,
+    "lastUpdate": "2025-05-27T12:00:00Z"
+  },
+  {
+    "id": "M009",
+    "name": "3D Printer I",
+    "temperature": 55.9,
+    "vibration": 1.2,
+    "health": 98,
+    "powerUsage": 9.4,
+    "lastUpdate": "2025-05-27T12:00:00Z"
+  },
+  {
+    "id": "M010",
+    "name": "Hydraulic Press J",
+    "temperature": 78.6,
+    "vibration": 3.7,
+    "health": 65,
+    "powerUsage": 17.3,
+    "lastUpdate": "2025-05-27T12:00:00Z"
+  }
+  ]
+}
