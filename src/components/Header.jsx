@@ -131,6 +131,8 @@ import DashboardIcon from "@mui/icons-material/Dashboard";
 import MenuIcon from "@mui/icons-material/Menu";
 import WbSunnyIcon from "@mui/icons-material/WbSunny";
 import BedtimeIcon from "@mui/icons-material/Bedtime";
+import CategoryIcon from '@mui/icons-material/Category';
+import BarChartIcon from '@mui/icons-material/BarChart';
 
 import { useThemeMode } from "../context/contextTheme";
 import { NavLink,Link } from "react-router-dom";
@@ -175,7 +177,7 @@ function Header({ children }) {
             </Typography>
           </Button>
           <IconButton onClick={toggleTheme}>
-            {darkMode ? <BedtimeIcon /> : <WbSunnyIcon />}
+            {darkMode ? <WbSunnyIcon /> : <BedtimeIcon /> }
           </IconButton>
         </Toolbar>
       </AppBar>
@@ -213,7 +215,7 @@ function Header({ children }) {
           {/* ส่วนที่ 2 */}
           <ListItemButton component={NavLink} to="/product">
             <ListItemIcon>
-              <DashboardIcon />
+              <BarChartIcon />
             </ListItemIcon>
             <ListItemText primary="Solutions" />
           </ListItemButton>
@@ -221,7 +223,7 @@ function Header({ children }) {
           {/* ส่วนที่ 3 */}
           <ListItemButton component={NavLink} to="/product">
             <ListItemIcon>
-              <DashboardIcon />
+              <CategoryIcon/>
             </ListItemIcon>
             <ListItemText primary="Products" />
           </ListItemButton>
